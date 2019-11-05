@@ -13,8 +13,9 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import '~@assets/style/varibles.styl'
   .header-wrapper
-    background :#00bcd4
+    background :$bgColor
     color : #ffffff
     display:flex
     // width:100%
